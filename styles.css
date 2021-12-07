@@ -1,0 +1,251 @@
+:root {
+  --azulOscuro: #195073;
+  --cafeClaro: #BFA454;
+  --naranjo: #BF5B04;
+  --conchevino: #732002;
+  --negro: #0D0D0D;
+}
+
+/* Global */
+ * {
+    margin: 0;
+    padding: 0;
+  }
+
+
+  
+html {
+  font-size: 62.5%;
+  height: 100%;
+  box-sizing: border-box;
+  /* background-repeat: no-repeat; */
+}
+
+*, *::before, *:after { /* ################################# */
+  box-sizing: inherit;
+}
+    
+
+body {
+    height: 100%;
+    width: 100%;
+   /*  background-image: url(./Fondo-ramas.png); */
+    /* background-position: center center; */ /* Background image is centered vertically and horizontally at all times */
+ /*    background-repeat: no-repeat; */ /* background image doesn't tile */
+   /*  background-attachment: fixed;  *//* background image is fixed in teh viewport so that it doesn-t move when the content-s height is greater than the image-s height */
+    /* background-size: cover; */ /* this is what makes the background image rescale based on the cointainer-s size */
+    /* background-color: var(--cafeClaro); */
+    background-color: #ccdbeb;
+ 
+    /* background-image: url(./papel.jpg); 
+    background-size: 1700px;  */
+    
+    /* background: linear-gradient(to top right, #365949, #518C77, #3eaa79 80%) fixed no-repeat; */
+    /* background-color: var(--cafeClaro); */
+ 
+}
+
+  /* .contenedor {
+    max-width: 1200px;
+    max-height: 3000px;
+      
+    } */
+
+    /* 0deg */
+    /* background-image: inherit; */
+    /* background-image: linear-gradient(to bottom left, #f3f056 5%, #91f05a 50%, #47e647 100% ); */
+    /* background-repeat: no-repeat; */
+    /* background-size: contain; */
+    /* background-attachment:unset; */
+    /* background-image: linear-gradient(45deg, red 0 50%, blue 50% 100%); */
+    /* background-image: linear-gradient(to bottom left, #f3f056 5%, #91f05a 50%, #47e647 100% ) ;  */
+    
+
+
+
+ /* lay-out */
+
+ .TOW {
+  height: 10%;
+  width: 10%;
+  /* margin-top: -10rem; */
+  /* margin-bottom: 1rem; */
+
+}
+
+/* .imagen__dado {
+  height: 400px;
+  width: 400px;
+  border: 1px solid black ;
+  box-shadow: 0px 6px 23px 2px rgba(0, 0, 0, 0.4);} */
+  
+
+.suma {
+  /* opacity: 0.8; */
+  border-radius: 9px;
+  color: rgb(2, 0, 0);
+  padding: 3rem;
+  margin-top: -2rem;
+  text-align: center;
+  transition: all 0.75s;
+  /* font-size: 2.5em; */
+  font-size: 4rem;
+  /* height: 7rem; */
+  width: 30rem;
+  box-shadow: 0px 6px 23px 2px rgba(0, 0, 0, 0.4);
+  background-color: #8C5F45;
+  border: 1px solid #111110;
+  color: white;
+  
+}
+
+
+.btn {
+
+  color: white;
+  border: none;
+  font-family: inherit;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 400;
+  transition: all 0.2s;
+
+  /* background-color: var(--conchevino); */
+  /* background-color: #A0A603; */
+  background-color: #3a9e7a;
+  backdrop-filter: blur(10px);
+
+  padding: 1.5rem 2.5rem;
+  border-radius: 50rem;
+  box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
+  margin-top: 1rem;
+  box-shadow: 0px 6px 23px 2px rgba(0, 0, 0, 0.4);
+  border: 1px solid #111110;
+  
+}
+
+.btn--nuevo {
+  background-color: rgb(109, 231, 225);
+  color: black;
+}
+
+/* h1 {
+    font-size: 3.5rem;
+} */
+
+.imagen__logo {
+    width: 17rem;
+    height: 10rem;
+    box-shadow: 0px 11px 8px rgba(0, 0, 0, 0.2);
+    border: 1px solid #e66a4e;
+    border-radius: 20px;
+    margin: 1rem 1rem 0 0;
+  
+  }
+
+/* footer { */
+    /* position:absolute; */
+    /* bottom: 0; */
+    /* margin-bottom: 2rem; */
+    /* width:120%; */
+    /* height: 5rem;   Height of the footer */
+    /* text-align: left; */
+    /* background-color: khaki; */
+    /* font-size: 3rem */
+ /* }   */
+
+ /* RESPONSIVE */
+
+  @media (min-width: 780px) {
+  
+.lo-principal {
+    
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    height: 100%;
+    
+
+    
+    
+
+    /* grid-auto-flow: column; */
+    
+   
+    /* background-color: rgb(0 0 0 / 50%); */
+  
+}
+
+
+
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-column: 2 / 3;
+
+}
+
+
+}
+
+@media (min-width: 280px){
+         
+    .lo-principal {
+    
+        display: grid;
+        grid-template-rows: 3fr, 1fr
+        
+        
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+       
+    } 
+    
+    
+
+    .contenedor {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+  
+
+}
+
+
+.imagen__dado {
+  height: 70%;
+  width: 70%;   
+}
+
+
+
+
+/* .imagen__logo {
+  height: auto;
+  width: auto; 
+
+} */
+
+} /* --------------- TERMINA RESPONSIVE --------------- */
+
+
+/* .ramas {
+  max-width: 100%;
+  max-height: 100%;
+} */
+/* .ramassvg { 
+  height: 40rem;
+  margin: 0 auto;
+  max-height: 100%;
+
+} */
+
+
