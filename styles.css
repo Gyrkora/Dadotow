@@ -29,38 +29,10 @@ html {
 body {
     height: 100%;
     width: 100%;
-   /*  background-image: url(./Fondo-ramas.png); */
-    /* background-position: center center; */ /* Background image is centered vertically and horizontally at all times */
- /*    background-repeat: no-repeat; */ /* background image doesn't tile */
-   /*  background-attachment: fixed;  *//* background image is fixed in teh viewport so that it doesn-t move when the content-s height is greater than the image-s height */
-    /* background-size: cover; */ /* this is what makes the background image rescale based on the cointainer-s size */
-    /* background-color: var(--cafeClaro); */
     background-color: #ccdbeb;
  
-    /* background-image: url(./papel.jpg); 
-    background-size: 1700px;  */
-    
-    /* background: linear-gradient(to top right, #365949, #518C77, #3eaa79 80%) fixed no-repeat; */
-    /* background-color: var(--cafeClaro); */
  
 }
-
-  /* .contenedor {
-    max-width: 1200px;
-    max-height: 3000px;
-      
-    } */
-
-    /* 0deg */
-    /* background-image: inherit; */
-    /* background-image: linear-gradient(to bottom left, #f3f056 5%, #91f05a 50%, #47e647 100% ); */
-    /* background-repeat: no-repeat; */
-    /* background-size: contain; */
-    /* background-attachment:unset; */
-    /* background-image: linear-gradient(45deg, red 0 50%, blue 50% 100%); */
-    /* background-image: linear-gradient(to bottom left, #f3f056 5%, #91f05a 50%, #47e647 100% ) ;  */
-    
-
 
 
  /* lay-out */
@@ -68,16 +40,10 @@ body {
  .TOW {
   height: 10%;
   width: 10%;
-  /* margin-top: -10rem; */
-  /* margin-bottom: 1rem; */
+  
 
 }
 
-/* .imagen__dado {
-  height: 400px;
-  width: 400px;
-  border: 1px solid black ;
-  box-shadow: 0px 6px 23px 2px rgba(0, 0, 0, 0.4);} */
   
 
 .suma {
@@ -130,9 +96,7 @@ body {
   color: black;
 }
 
-/* h1 {
-    font-size: 3.5rem;
-} */
+
 
 .imagen__logo {
     width: 17rem;
@@ -167,12 +131,7 @@ body {
     
 
     
-    
 
-    /* grid-auto-flow: column; */
-    
-   
-    /* background-color: rgb(0 0 0 / 50%); */
   
 }
 
@@ -227,12 +186,6 @@ body {
 
 
 
-
-/* .imagen__logo {
-  height: auto;
-  width: auto; 
-
-} */
 
 } /* --------------- TERMINA RESPONSIVE --------------- */
 
