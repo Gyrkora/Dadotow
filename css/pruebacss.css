@@ -1,0 +1,6 @@
+ul {
+  background-color: red; }
+  ul li {
+    color: green; }
+    ul li a {
+      font-size: 3rem; }
